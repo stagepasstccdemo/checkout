@@ -4,7 +4,13 @@
     "jsx": "react-jsx",
     "declarationDir": "dist"
   },
-  "files": ["src/orgname-app-name.tsx"],
-  "include": ["src/**/*"],
-  "exclude": ["src/**/*.test*"]
+  "files": [
+    "src/stagepass-app-checkout.tsx"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "src/**/*.test*"
+  ]
 }

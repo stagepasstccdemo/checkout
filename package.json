@@ -1,5 +1,5 @@
 {
-  "name": "@orgname/name",
+  "name": "@stagepass/checkout",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -82,7 +82,7 @@
     "single-spa": "^5.9.3",
     "single-spa-react": "^4.3.1"
   },
-  "types": "dist/orgname-app-name.d.ts",
+  "types": "dist/stagepass-app-checkout.d.ts",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
