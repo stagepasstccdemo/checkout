@@ -6,7 +6,11 @@ export default function Root(props) {
   const store = useStore();
 
   return (
-    <section>
+    <section
+      style={{
+        background: "white",
+      }}
+    >
       {props.name} is mounted! --- {JSON.stringify(store)}
     </section>
   );
