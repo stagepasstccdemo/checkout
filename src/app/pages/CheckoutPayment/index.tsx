@@ -30,8 +30,8 @@ export function CheckoutPayment() {
   const checkoutSettings = {
     lineItems: [item],
     mode: "payment",
-    successUrl: "https://stagepasstickets.com/success",
-    cancelUrl: "https://stagepasstickets.com/cancel",
+    successUrl: "https://stagepasstickets.com/checkout/success",
+    cancelUrl: "https://stagepasstickets.com/checkout/failure",
   };
 
   const redirectToCheckout = async () => {
