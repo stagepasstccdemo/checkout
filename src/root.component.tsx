@@ -2,6 +2,6 @@
 // @ts-ignore
 import { CheckoutPayment } from "./app/pages/CheckoutPayment";
 
-export default function Root(props) {
+export default function Root() {
   return <CheckoutPayment />;
 }
