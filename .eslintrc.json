@@ -30,10 +30,11 @@
         "import/no-unresolved": [
             "error",
             {
-                "ignore": ["root.component"]
+                "ignore": ["root.component", "@stagepass/util-state", "@stagepass/osiris-ui"]
             }
         ],
-        "import/extensions": ["off"]
+        "import/extensions": ["off"],
+        "import/prefer-default-export": "off"
     }  ,
     "settings": {
         "import/resolver": {

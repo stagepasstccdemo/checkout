@@ -8,9 +8,9 @@
     "src/stagepass-app-checkout.tsx"
   ],
   "include": [
-    "src/**/*"
+    "src/**/*",
   ],
   "exclude": [
-    "src/**/*.test*"
+    "src/**/*.test*",
   ]
 }

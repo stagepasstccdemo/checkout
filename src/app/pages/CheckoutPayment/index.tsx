@@ -1,10 +1,9 @@
-/* eslint-disable import/no-unresolved */
-/* eslint-disable import/prefer-default-export */
-// @ts-nocheck
 import { loadStripe } from "@stripe/stripe-js";
 import { useEffect, useState } from "react";
+
+// @ts-ignore
 import { useStore } from "@stagepass/util-state";
-import { navigateToUrl } from "single-spa";
+// @ts-ignore
 import { Loading } from "@stagepass/osiris-ui";
 
 let stripePromise: Promise<any>;
@@ -30,8 +29,8 @@ export function CheckoutPayment() {
   const checkoutSettings = {
     lineItems: [item],
     mode: "payment",
-    successUrl: "https://stagepasstickets.com/checkout/success",
-    cancelUrl: "https://stagepasstickets.com/checkout/failure",
+    successUrl: "https://stagepasstickets.com/events",
+    cancelUrl: "https://stagepasstickets.com/events",
   };
 
   const redirectToCheckout = async () => {
